@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,500&display=swap');
+
+/* #Home{
+    position: fixed;
+    width: 100%;
+    background-color: slategrey;
+    font-family: cursive;
+} */
+.navbar{
+    position:sticky;
+    width: 100%;
+    background-color: #66FCF1;
+    font-family: cursive;
+    margin-top: 0%;
+    height: 70px;
+    top: 0;
+    
+}
+.navbar .menu li a{
+    color: #1F2833;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+   
+}
+.navbar .logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: #1F2833;
+    text-decoration: none;
+  
+}
+.navbar .menu li{
+    list-style: none;
+    
+    
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.max-width{
+    max-width: 1300px;
+    /* padding: 0 80px; */
+    margin: auto;
+}
+#About{
+    /* height: 100vh; */
+    display: inline-flex;
+    height: 100vh;
+    background-size:cover;
+    background-position:center ;
+    background-repeat: no-repeat;
+    font-family: cursive;
+    
+}
+.rows12{
+    display: inline-flex;
+    background-color: #1F2833;
+}
+
+.ppic{
+    width: 300px;
+    height: 350px;
+    margin-right: 290px;
+    margin-top: 20%;
+    border-bottom: #66FCF1;
+    
+}
+
+
+
+
+#Skills{
+   
+    height: 70vh;
+   margin-bottom: 0%;
+   background-blend-mode:hue;
+    background-color: #45A29E;
+}
+.sHead{
+    margin-left: 42%;
+    font-size: 40px;
+    font-family: cursive;
+    margin-top: 0%;
+    color:#1F2833;
+   
+    
+}
+
+.info{
+    margin-top: 20%;
+    font-size: 30px;
+    height: 400px;
+    font-family: cursive;
+    font-weight: bolder;
+    text-align: center;
+    color: #66FCF1;
+    width: 50%;
+    margin-left: 290px;
+}
+
+
+
+.ap{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: cursive;
+    
+}
+
+#pHead{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.rowP1{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+#Projects{
+    /* background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("webBack.jpg"); */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 0%;
+    
+}
+.bckW{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+        
+    
+}
+#pic{
+    height: 60px;
+    width:60px;
+    display: inline;
+    padding-left: 40px;
+    padding-right: 40px;
+    border:2px solid #1F2833;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+}
+.row1{
+    display: inline-flex;
+/* margin: auto; */
+padding: 0px;
+padding-bottom: 20px;
+padding-top:20px ;
+position: relative;
+margin-left: 34%;
+}
+.row2{
+    display: inline-flex;
+    margin-left: 39%;
+    position: relative;
+    
+    padding-top:20px ;
+    
+    margin-bottom: 0%;
+    justify-content: center;
+}
+#About{
+    text-justify: auto;
+   justify-content: center;
+    background-color: white;
+    
+}
+
+#pHead{
+    text-align: center;
+    margin-top: 0%;
+    
+}
+.rowP1{
+    display: flex;
+    text-justify: auto;
+    z-index: 1;
+    position: relative   
+
+}
+
+.web{
+    margin-left: 28%;
+}
+.and{
+    margin-left: 22%;
+}
+#footer{
+    text-align-last: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: 10vh;
+    background-color: #1F2833;
+}
+#contact{
+    height:50vh;
+    margin-top: 0%;
+    font-family: cursive;
+    background-blend-mode:hue;
+    background-color: #45A29E;
+    
+   padding-bottom: 100px;
+}
+
+#contact span{
+    display:flex;
+    justify-content:center;
+    font-size:32px;
+    font-weight: 500;
+    color: #1F2833;
+   padding-top: 100px;
+ 
+    
+    
+}
+
+.input-fields{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top:20px;
+}
+
+.input-fields input{
+    width:250px;
+    height:40px;
+    margin-top:20px;
+    border-radius: 10px;
+    border: 1px solid #1F2833;
+    box-shadow: #1F2833;
+    padding-left:10px;
+    padding-bottom: 5px;
+}
+
+.btn{
+    text-decoration: none;
+    color: #66FCF1;
+}
+
+.db{
+    color: #66FCF1;
+}
+
+
+ @media screen and (max-width:480px)
+{ 
+   .row1, .row2,#pic{
+      display: inline-block; 
+     
+   }
+
+      .navbar{
+        display:flex;
+        flex-wrap: wrap; 
+    }
+    #Projects , #About , #contact , #footer{
+        flex-wrap: wrap;
+        display: inline;
+    }
+}
